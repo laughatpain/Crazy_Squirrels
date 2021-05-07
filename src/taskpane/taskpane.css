@@ -17,9 +17,12 @@
  }
  
  .ms-welcome__header {
+   color:white;
+   font-size:medium;
+   background-color:purple;
     padding: 20px;
-    padding-bottom: 30px;
-    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: column;
@@ -48,11 +51,24 @@
  
  .ms-welcome__features {
      list-style-type: none;
-     margin-top: 20px;
+     margin-top: 10px;
+ }
+
+ .ms-firstrun-instructionstep__header {
+   padding-left: 20px;
+ }
+
+ .ms-firstrun-instructionstep__welcome-body {
+   padding-left: 20px;
+ }
+
+ .ms-firstrun-instructionstep__list {
+   padding-left: 20px;
  }
  
  .ms-welcome__features.ms-List .ms-ListItem {
-     padding-bottom: 20px;
+     padding-left: 20px;
+     padding-bottom: 10px;
      display: -webkit-flex;
      display: flex;
  }
@@ -77,4 +93,16 @@
 
 b {
     font-weight: bold;
+}
+ /* Style the close button */
+ .close {
+  position: relative;
+  right: 0;
+  top: 0;
+  padding: 2px 4px 2px 4px;
+}
+
+.close:hover {
+  background-color: rgb(183, 70, 187);
+  color: white;
 }
